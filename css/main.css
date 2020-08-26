@@ -119,7 +119,15 @@ a {
   color: #e2e3ed;
   text-decoration: none;
 }
- 
+ .hero-area {
+  background-image: url('../img/hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+ }
+
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -136,7 +144,15 @@ h4 {
  
 p {
   font-size: .875em;
-  line-height: 1.285;
+  line-height: 1.5em;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
 }
  
 address {
@@ -146,6 +162,14 @@ address {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
+}
+
+.features {
+  background-image: url('../img/bachground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 915px;
 }
 
 /* -------------------- Base Header - Footer Styles -------------------- */
