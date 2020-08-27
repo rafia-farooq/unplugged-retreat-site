@@ -139,7 +139,7 @@ h4 {
  
 p {
   font-size: .875em;
-  line-height: 1.285;
+  line-height: 20px;
 }
  
 img {
@@ -260,12 +260,21 @@ footer .copyright {
   margin: 20px 0;
 }
 
+.copyright p {
+  line-height: 2em;
+  color: grey;
+}
+
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Hero Area */
 
 .hero-area {
-  background: url(../img/unplugged-retreat.jpg);
+  background: linear-gradient(
+    rgba(45, 70, 55, 0.5),
+    rgba(70, 114, 84, 0.5)
+  ),
+  url(../img/hero-image.jpg);
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -443,8 +452,10 @@ input[type=button] {
 }
 
 .faq-content h4 {
-  line-height: 1.333;
+  line-height: 1.333em;
 }
+
+
 
 /* ==========================================================================
    Helper classes
@@ -733,8 +744,8 @@ input[type=button] {
 
   .faq h4,
   .faq p {
-      font-size: .875em;
-      line-height: 1.125;
+      font-size: .9em;
+      line-height: 1.5em;
   }
 }
 
@@ -834,8 +845,8 @@ input[type=button] {
     
   .faq h4,
   .faq p {
-      font-size: 1.125em;
-      line-height: 1;
+      font-size: 1em;
+      line-height: 1.5;
   }
 }
 
